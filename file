@@ -1,0 +1,6 @@
+-name: Installing httpd
+ hosts: localhost
+ become: true
+ roles:
+   - apache
+
